@@ -1,0 +1,56 @@
+.btn-transparent {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 0;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-bordered-white {
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 1px solid #E3E3E3;
+  padding: 10px 0;
+  border-radius: 0;
+  width: 111px;
+
+  &:hover {
+    color: #808080;
+  }
+}
+.btn-purple {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 14px 40px;
+  border-radius: 0;
+  width: 171px;
+  height: 51px;
+  background-color: $color-purple;
+
+  &:hover {
+    color: white;
+  }
+}
+
+
+.btn-blue{
+  font-size: 12pt;
+  background: #0482b7;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: 1px solid #0482b7;
+  &:hover{
+  background: #fff;
+  color: #0482b7;
+  border: 1px solid #0482b7;
+}}

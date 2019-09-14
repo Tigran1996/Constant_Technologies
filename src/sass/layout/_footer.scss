@@ -1,0 +1,53 @@
+footer{
+@include backimg;
+  background: url("../img/Group11.png");
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  .container:nth-child(1){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 400px;
+    .info{
+      color: #fff;
+      p{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .tel {
+        display: flex;
+        align-items: center;
+        div{
+          margin-left:40px;
+        }
+      }
+    }
+  }
+  .container:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    .social{
+      display: flex;
+      align-items: center;
+      a{
+        margin-right: 20px;
+      }
+
+    }
+    .copy{
+      display: flex;
+
+      img{
+        max-width: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+
+}
